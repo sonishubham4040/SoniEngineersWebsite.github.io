@@ -1,0 +1,406 @@
+/**********************************index.html*******************************/
+
+
+#title{
+    background-color:white;
+}
+
+.brand-img{
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+    border-radius: 100%;
+}
+.seaa{
+    margin-top: 8.5px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.title-images{
+    width:100%;
+    height:650px; 
+}
+h4{
+    
+    color: white;
+    text-shadow: 4px 4px black;
+    font-size: 50px;
+    margin-bottom: 220px;
+}
+hr{
+    width: 7%;
+    border-width: 10px;
+    border-color: rgb(121, 121, 121);
+    border-style: dotted none none;
+    padding-bottom: 30px;
+   
+}
+
+.description{
+   font-size: 21px;
+    text-align: center;
+    padding: 50px 250px 50px 250px;
+    line-height: 1.7;
+    color: rgb(31, 31, 31);
+}
+
+.carousel-subheadings{
+    background-color:white;
+    margin-left: 28%;
+    margin-right: 28%;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 1px 1px black;
+}
+
+.nav-item{
+font-size: 19px;
+font-weight: 450;
+padding: 4px;
+text-transform: uppercase;
+}
+
+.carousel-control-prev-icon{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 5px;
+
+}
+.carousel-control-next-icon{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    right: 5px;
+}
+
+#About{
+background-color:white;
+ background-image: url(data:image/jpeg;base64,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);
+padding-bottom: 50px;
+margin-bottom: 100px;
+margin-top: 50px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    padding-top: 20px;
+    font-weight: 900;
+    font-size: 40px;
+    background-color: black;
+    padding-bottom: 20px;
+    color: white;
+  
+}
+.About-logos{
+    height: 150px;
+    width: 150px;
+   border-style: solid;
+   border-radius: 100%;
+margin: 80px 10px 40px 400px;
+}
+.About-logos:hover{
+   border-color: rgb(0, 89, 255);
+}
+
+.info{
+  
+ font-size: 25px;
+ font-weight: bold;
+}
+.client{
+    margin-top: 100px; 
+    margin-right: 300px;
+   
+}
+.clients{
+    background-color: rgb(236, 222, 19);
+   
+}
+.quality{
+    margin-left: 300px;
+    margin-top: 130px;
+}
+.qualities{
+    background-color: rgb(127, 175, 247);
+   margin: 80px 10px 40px 150px;
+}
+.supportive{
+    margin-top: 120px; 
+    margin-right: 300px;
+   
+}
+.supportives{
+    background-color: rgb(189, 102, 230);
+}
+.growth{
+    margin-left: 320px;
+    margin-top: 130px;
+}
+.growths{
+    background-color: rgb(158, 236, 79);
+    margin: 80px 10px 40px 150px;
+}
+.first-heading{
+    margin-left: 400px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(236, 222, 19);
+}
+.second-heading{
+    margin-left: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px  rgb(127, 175, 247);
+}
+.third-heading{
+    margin-left: 400px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow:2px 2px rgb(189, 102, 230) ;
+}
+.fourth-heading{
+    margin-left: 180px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow:2px 2px lawngreen;
+}
+#Services{
+    
+    background-image: url(data:image/jpeg;base64,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);
+margin-top: 50px;
+margin-bottom: 100px;
+}
+.services-logos{
+    height: 100px;
+    width: 100px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.services-heading{
+    font-size: 20px;
+    font-weight: bold;
+  margin-left: 10px;
+  text-align: center;
+}
+.services-logos:hover{
+   border-radius:20%;
+ background-color: white;
+   border-color:black;
+    border-style: solid;
+}
+.services-subheading{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+.nav-item:hover{
+    background-color:white;
+    border-radius: 1%;
+   
+}
+#Contact{
+    background-color: #ff9307;
+    background-color: rgb(91, 184, 29);
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+    padding-right: 250px;
+    padding-left: 250px;
+   
+}
+
+.contact-heading{
+    padding-bottom: 30px;
+}
+.contact-button{
+font-family: sans-serif;
+font-weight: bold;
+padding-right: 50px;
+padding-left: 50px;
+
+}
+#logos{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+   
+}
+.last-logos:hover{
+    height: 8%;
+    width: 40px;
+}
+.last-logos{
+    padding-right: 20px;
+    height: 10%;
+    width: 50px;
+    
+}
+  
+.owner{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+#About{
+    display: inline-flex;
+}
+
+/**************************************[[index.html]]***************************/
+
+
+/************************************gallery.html********************************/
+
+.gallery{
+    background-color: rgb(170, 95, 255);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxr1WsvQx2ytpwUhoCepLn5BV-oCyLS6OhCQ&usqp=CAU);
+}
+.gallery-photos{
+   height: 300px;
+   width: 300px;
+margin-top: 100px;
+margin-left: 50px;
+margin-bottom: 40px;
+border-radius: 10%;
+border-style: solid;
+border-color: white;
+border-width: 5px;
+}
+.gallery-photos:hover{
+transform: rotate(10deg);
+}
+.gallery-heading{
+    padding-top: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    color:rgb(233, 45, 45);
+    text-shadow: 3px 3px white;
+}
+/************************************[[gallery.html]]********************************/
+
+
+/************************************contact-us.html********************************/
+.phone{
+    color:purple;
+    font-size: 20px;
+}
+
+#Approach{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/************************************[[contact-us.html]]********************************/
+
+
+/*********************************     Media Query    *****************************/
+
+@media(max-width:560px){
+    .title-images{
+        width:600px;
+        height:380px; 
+    }
+    
+    .carousel-control-prev-icon{
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        left: 5px;
+    
+    }
+    .carousel-control-next-icon{
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        right: 5px;
+    }
+    .description{
+        font-size: 20px;
+         text-align: center;
+         padding: 50px 25px 50px 25px;
+         line-height: 1.5;
+         color: rgb(31, 31, 31);
+     }
+     hr{
+        width: 10%;
+        border-width: 9px;
+        border-color: rgb(121, 121, 121);
+        border-style: dotted none none;
+        padding-bottom: 30px;
+    }
+    
+    h1{
+        font-weight: 500;
+        font-size: 25px;
+    }
+    
+        .About-logos{
+            height: 100px;
+            width: 100px;
+           margin: 20px 10px 20px 200px;
+        }
+        .info{
+            font-size: 18px;
+            text-align: center; 
+           }
+
+ 
+}
+#About{
+    display: block;
+}
+
+.services-logos{
+  margin-left: 100px;
+}
+#Contact{
+    background-color: #ff9307;
+    background-color: rgb(91, 184, 29);
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+    padding-right: 25px;
+    padding-left: 25px;
+   
+}
+
+
+
+
+@media(max-width:992px){
+
+    .nav-item{
+        font-size: 18px;
+        font-weight:4k00;
+        padding-top: 30px;
+        text-transform:none
+        }
+
+     .gallery-heading{
+          font-size: 35px;
+        }
+
+        .gallery-photos{
+            height: 300px;
+            width: 300px;
+         margin-top: 50px;
+         margin-left: 100px;
+         margin-bottom: 40px;
+         border-radius: 10%;
+         border-style: solid;
+         border-color: white;
+         border-width: 5px;
+         }
+}
+
+/****************************     [[Media Query]]      ******************************/
